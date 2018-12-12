@@ -2,7 +2,7 @@
 The customer approved your previous Assignment and would like your help again to fix an issue they are having.
 
 The customer manages Cars for various companies and projects assigned to various users. A developer created an API which 3rd parties can use and consume when updating information. 
-Unfortunately, the develop left the company and never told where they could find the source code for this API. 
+Unfortunately, the developer left the company and never told where they could find the source code for this API. 
 
 You have been hired to recreate the API based on the swagger documentation and the following tiny bit of information the customer has.
 
@@ -16,10 +16,10 @@ The customer told us that they manage the following entities:
 * Skill (opt)
 
 Relationships between the entities are as follows (*all are One-to-Many relationships*): 
-* A Company can have mutliple Cars
+* A Company can have multiple Cars
 * A Car can have a User
 * A Car can have a Company
-* A User can have mutliple Cars
+* A User can have multiple Cars
 * A User can have multiple Projects
 * A Project can have multiple Skills
 
