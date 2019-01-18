@@ -29,8 +29,16 @@ Relationships between the entities are as follows (*all are One-to-Many relation
 2. Define Entities
 3. Create the Database (DbContext)
 4. Define the API based on the swagger.json
-5. Implement the new custom API Calls
-   * Call 1
-   * Call 2
-   * Call 3
 
+## Tasks V2
+
+1. Implement the new custom API Calls
+	* All cars from a specific company, including the current user. (either by id or by name)
+	* All cars from a specific company, order by name, return sets of 20 and start on x.
+	* Batch insert of multiple cars. 
+		* Parallel processing
+2. Split or seperate the application logic in logical more manageable parts.
+3. Introduce some Many To Many relationships. 
+	* Project <-> Skill
+	* Skill <-> User
+	* User <-> Project
