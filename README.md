@@ -23,14 +23,14 @@ Relationships between the entities are as follows (*all are One-to-Many relation
 * A User can have multiple Projects
 * A Project can have multiple Skills
 
-## Tasks
+## Task - Part 1
 
 1. Create ASP.NET Core API project
 2. Define Entities
 3. Create the Database (DbContext)
 4. Define the API based on the swagger.json
 
-## Tasks V2
+## Tasks - Part 2
 
 1. Implement the new custom API Calls
 	* All cars from a specific company, including the current user. (either by id or by name)
@@ -43,10 +43,10 @@ Relationships between the entities are as follows (*all are One-to-Many relation
 	* Skill <-> User
 	* User <-> Project
 
-## Tasks V3
+## Tasks - Part 3
 
 You now have multiple controllers and repeated logic. Please:
 1. Move the logic out of the controllers into custom classes that handle database communication for a certain type.
 2. Introduce generics to minimize code duplication.
 3. Use dependency injection. 
-4. Find out and descibe the pros and cons when using generics in this situation.
+4. Find out and describe the pros and cons when using generics in this situation.
