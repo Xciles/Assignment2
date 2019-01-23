@@ -42,3 +42,11 @@ Relationships between the entities are as follows (*all are One-to-Many relation
 	* Project <-> Skill
 	* Skill <-> User
 	* User <-> Project
+
+## Tasks V3
+
+You now have multiple controllers and repeated logic. Please:
+1. Move the logic out of the controllers into custom classes that handle database communication for a certain type.
+2. Introduce generics to minimize code duplication.
+3. Use dependency injection. 
+4. Find out and descibe the pros and cons when using generics in this situation.
